@@ -1,0 +1,7 @@
+version: "2.0"
+services:
+  grokdebug:
+    image: lunderhage/grokdebug:1.0
+    build: .
+    network_mode: bridge
+
