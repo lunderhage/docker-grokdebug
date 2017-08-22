@@ -5,16 +5,18 @@ Since the original location for the application seems heavy loaded, why not brin
 
 Big thanks to Nick Ethier (nickethier) and others for the original work.
 
-How to build:
+## How to build:
 
-docker-compose build
-or
-docker build . -t <your preferred tag>
+`docker-compose build`
 
-How to start:
+**or**
 
-docker-compose up -d
+`docker build . -t <your preferred tag>`
 
-or
+## How to start:
 
-docker run -d lunderhage/grokdebug
+`docker-compose up -d`
+
+**or**
+
+`docker run -p 127.0.0.1:8080:80 -d lunderhage/grokdebug`
